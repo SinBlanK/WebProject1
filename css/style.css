@@ -13,17 +13,14 @@ background-repeat: no-repeat;
     src: url(../font/AvenirItalica.otf);
 }
 
-#textOverlay{
-    font-size: 8vw;
-    display: flex;
-    align-content: center;
-    justify-content: center;   
-}
-
-#textOverlay h1{
+#textOverlay #tit{
+    font-size: 16vw;
+    text-align: center;
     margin-bottom: 0;  
     margin-top: 0;
+    padding: 0;
 }
+
 
 ::-webkit-scrollbar{
     display: none;
@@ -31,7 +28,7 @@ background-repeat: no-repeat;
 
 #botones{
     display: flex;
-    justify-content: flex;
+    justify-content: center;
     align-content: center;
     align-self: center;
     grid-gap: 1vw;
@@ -66,13 +63,18 @@ a{
 }
 
 @media only screen and (max-width: 700px) {
-    #textOverlay h1{
+    #textOverlay #tit{
        font-size: 20vw;
     }
 
     #botones a{
         font-size: 5vw;
     }  
+
+    header h2{
+        font-size: 5vw ;
+    }
+
  }
 
 #menu{
@@ -84,7 +86,7 @@ a{
      
  }
 
- h1,h2{
+ h1,h2,p{
     font-family: Avenir;
     color:rgba(218, 237, 235, 1)
  }
