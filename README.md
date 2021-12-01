@@ -1,2 +1,3 @@
 # WebProject1
-Just messing around with some personal projects.
+Hi there , im SinBlanK , this will be one of my first personal projects regarding FrontEnd web development.
+
